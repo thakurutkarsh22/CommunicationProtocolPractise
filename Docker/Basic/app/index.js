@@ -1,5 +1,7 @@
 const app = require("express")();
 
+app;
+
 app.get("/", (req, res) =>
   res.send("hello from the light weight container!!!")
 );
